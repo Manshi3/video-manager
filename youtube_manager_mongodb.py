@@ -46,7 +46,7 @@ def main():
             time = input("Enter the updated video time: ")
             update_video(video_id, name, time)
         elif choice == '4':
-            video_id = input("Enter the video id to update: ")
+            video_id = input("Enter the video id to delete: ")
             delete_video(video_id, name, time)
         elif choice == '5':
             break
