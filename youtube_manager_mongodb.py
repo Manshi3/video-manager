@@ -2,8 +2,6 @@ from pymongo import MongoClient
 from bson import ObjectId
 
 client = MongoClient("mongodb+srv://CHAI:CHAI@cluster0.lxl3fsq.mongodb.net/", tlsAllowInvalidCertificates=True)
-# Not a good idea to include id and password in code files
-#  tlsAllowInvalidCertificates=True - Not a good way to handle ssl
 
 print(client)
 db = client["ytmanager"]
